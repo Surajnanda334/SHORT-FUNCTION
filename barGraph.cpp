@@ -38,10 +38,10 @@ int main()
         for ( i = 0 ; i < n*3+1 ; i++ )
             cout << "-";
         cout << ">";
-        cout << "\n   ";
-        for (i = 0 ; i < n ; i++)
+        cout << "\n";
+        for (i = 0 ; i < n+1 ; i++)
         {
-            cout << arr[i] << "  ";
+            cout << i << "  ";
         }
         getch();
         system("cls");
