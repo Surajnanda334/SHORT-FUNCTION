@@ -25,7 +25,7 @@ int main()
     }
 
     rotate(arr,n,k);
-    cout<<"\nThe array after  rotating: ";
+    cout<<"\nThe array after rotating:  ";
     for (int i = 0; i < n; i++)
     {
         cout<<arr[i]<<" ";
