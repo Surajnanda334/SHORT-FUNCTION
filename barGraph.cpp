@@ -21,10 +21,10 @@ int main()
         }
         m = max;
         system("cls");
-        cout << " ^\n";
-        for ( i = 0 ; i < m ; i++ )
+        cout << " \t^\n";
+        for ( i = 0 ; i < m+1 ; i++ )
         {
-            cout << m-i <<"|";
+            cout << m-i <<"\t|";
             for ( j = 0 ; j < n ; j++ )
             {   if ( arr[j] < max )
                     cout << "   ";
@@ -34,11 +34,11 @@ int main()
             cout <<endl;
             max--;
         }
-        cout << " ";
+        cout << " \t";
         for ( i = 0 ; i < n*3+1 ; i++ )
             cout << "-";
         cout << ">";
-        cout << "\n";
+        cout << "\n\t";
         for (i = 0 ; i < n+1 ; i++)
         {
             cout << i << "  ";
